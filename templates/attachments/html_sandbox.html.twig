@@ -67,7 +67,7 @@
 
         <iframe  referrerpolicy="no-referrer" class="content-frame"
                  {# When changing this sandbox, also change the sandbox CSP in the controller #}
-                 sandbox="allow-scripts allow-downloads allow-modals"
+                 sandbox="allow-scripts allow-downloads allow-modals{% if allow_storage %} allow-same-origin{% endif %}"
                  srcdoc="{{ content|e('html_attr') }}"
         ></iframe>
 

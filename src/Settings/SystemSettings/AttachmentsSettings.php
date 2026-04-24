@@ -72,4 +72,11 @@ class AttachmentsSettings
         envVar: "bool:ATTACHMENT_SHOW_HTML_WARNING", envVarMode: EnvVarMode::OVERWRITE
     )]
     public bool $showHTMLAttachmentWarning = true;
+
+    #[SettingsParameter(
+        label: new TM("settings.system.attachments.allowHTMLAttachmentStorage"),
+        description: new TM("settings.system.attachments.allowHTMLAttachmentStorage.help"),
+        envVar: "bool:ATTACHMENT_ALLOW_HTML_STORAGE", envVarMode: EnvVarMode::OVERWRITE
+    )]
+    public bool $allowHTMLAttachmentStorage = false;
 }

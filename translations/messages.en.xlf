@@ -13013,6 +13013,18 @@ Buerklin-API Authentication server:
         <target>When enabled, a warning banner is shown when viewing user uploaded HTML attachments in the sandbox, reminding the user that the content is untrusted.</target>
       </segment>
     </unit>
+    <unit id="Cx4Pqr9" name="settings.system.attachments.allowHTMLAttachmentStorage">
+      <segment state="translated">
+        <source>settings.system.attachments.allowHTMLAttachmentStorage</source>
+        <target>Allow HTML attachments to use browser storage (localStorage)</target>
+      </segment>
+    </unit>
+    <unit id="Dy5Rst0" name="settings.system.attachments.allowHTMLAttachmentStorage.help">
+      <segment state="translated">
+        <source>settings.system.attachments.allowHTMLAttachmentStorage.help</source>
+        <target>⚠️ When enabled, scripts inside user uploaded HTML attachments can read and write to the browser&apos;s localStorage. This allows data to persist across page reloads, but grants the attachment access to Part-DB&apos;s browser origin. Only enable this if you fully trust all users who can upload files.</target>
+      </segment>
+    </unit>
     <unit id="bRcdnJK" name="attachment.sandbox.back_to_partdb">
       <segment state="translated">
         <source>attachment.sandbox.back_to_partdb</source>
