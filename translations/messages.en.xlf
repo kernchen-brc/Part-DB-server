@@ -13001,6 +13001,18 @@ Buerklin-API Authentication server:
         <target>WARNING: You are viewing an user uploaded attachment. This is untrusted content. Proceed with care.</target>
       </segment>
     </unit>
+    <unit id="Ax9Tml2" name="settings.system.attachments.showHTMLAttachmentWarning">
+      <segment state="translated">
+        <source>settings.system.attachments.showHTMLAttachmentWarning</source>
+        <target>Show warning when opening user uploaded attachments</target>
+      </segment>
+    </unit>
+    <unit id="Bx3Nkp8" name="settings.system.attachments.showHTMLAttachmentWarning.help">
+      <segment state="translated">
+        <source>settings.system.attachments.showHTMLAttachmentWarning.help</source>
+        <target>When enabled, a warning banner is shown when viewing user uploaded HTML attachments in the sandbox, reminding the user that the content is untrusted.</target>
+      </segment>
+    </unit>
     <unit id="bRcdnJK" name="attachment.sandbox.back_to_partdb">
       <segment state="translated">
         <source>attachment.sandbox.back_to_partdb</source>

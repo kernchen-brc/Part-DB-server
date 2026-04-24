@@ -65,4 +65,11 @@ class AttachmentsSettings
         envVar: "bool:ATTACHMENT_SHOW_HTML_FILES", envVarMode: EnvVarMode::OVERWRITE
     )]
     public bool $showHTMLAttachments = false;
+
+    #[SettingsParameter(
+        label: new TM("settings.system.attachments.showHTMLAttachmentWarning"),
+        description: new TM("settings.system.attachments.showHTMLAttachmentWarning.help"),
+        envVar: "bool:ATTACHMENT_SHOW_HTML_WARNING", envVarMode: EnvVarMode::OVERWRITE
+    )]
+    public bool $showHTMLAttachmentWarning = true;
 }

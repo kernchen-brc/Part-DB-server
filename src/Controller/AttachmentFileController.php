@@ -65,6 +65,7 @@ class AttachmentFileController extends AbstractController
         $response = $this->render('attachments/html_sandbox.html.twig', [
             'attachment' => $attachment,
             'content' => $attachmentContent,
+            'show_warning' => $attachmentsSettings->showHTMLAttachmentWarning,
         ]);
 
         //Set an CSP that allows to run inline scripts, styles and images from external ressources, but does not allow any connections or others.
